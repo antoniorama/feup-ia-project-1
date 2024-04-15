@@ -1,6 +1,6 @@
 # Amado Game
 
-## Como correr o programa
+## How to Run the Program
 
 To start the game, it is necessary to install the `pygame` library and run the commands:
 ```bash
