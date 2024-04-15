@@ -1,50 +1,42 @@
-# Jogo Amado
+# Amado Game
 
-## Identificação do Grupo
+## Como correr o programa
 
-Grupo: **Group A1_42**
-
-* António Marujo Rama - up202108801
-* Matilde Isabel da Silva Simões - up202108782
-* Manuel Ramos Leite Carvalho Neto - up202108744
-
-## How correr o programa
-
-Para iniciar o jogo, é necessário instalar a biblioteca `pygame` e correr os comandos:
+To start the game, it is necessary to install the `pygame` library and run the commands:
 ```bash
 pip install pygame
 python main.py
 ```
 
-Para ter acesso à análise dos algoritmos, é necessário instalar a biblioteca `memory_profiler` e correr os comandos:
+To access the analysis of the algorithms, it is necessary to install the memory_profiler library and run the commands:
 ```bash
 pip install memory_profiler
 python analysis.py
 ```
 
-## Como usar o programa
+## How to Use the Program
 
-O jogo começa com um menu no qual o jogador pode escolher o nível que pretende jogar. Existem 10 níveis com diferentes dificuldades, sendo que o nível 1 é o mais fácil e o nível 10 é o mais difícil. Para selecionar o nível pretendido, usam-se as setas do teclado e, para confirmar a seleção, usa-se a tecla *Enter*.
+The game begins with a menu where the player can choose the level they want to play. There are 10 levels with varying difficulties, with level 1 being the easiest and level 10 the hardest. To select the desired level, use the keyboard arrows and, to confirm the selection, press the Enter key.
 
 ![Menu](photos/mainMenu.png)
 
-Após a seleção do nível, o jogador é redirecionado para a página do jogo, onde encontra o tabuleiro inicial (à esquerda), que deve corresponder ao tabuleiro final (exibido à direita). Para mover o cursor, o jogador utiliza as setas do teclado, sendo o quadrado com bordas verdes o atualmente selecionado. Do lado esquerdo do separador, também é observado o número de movimentos realizados até ao momento. À direita, juntamente com os algoritmos disponíveis para selecionar, existe a opção de solicitar dicas sobre como resolver o jogo, estando tudo isto acessível através do rato. É possível sair do nível pressionando a tecla *ESC*.
+After selecting the level, the player is directed to the game page, where they find the initial board (on the left), which should match the final board (displayed on the right). To move the cursor, the player uses the keyboard arrows, with the square bordered in green being the currently selected one. On the left side of the divider, the number of moves made so far is also displayed. On the right, along with the algorithms available for selection, there is the option to request hints on how to solve the game, all accessible via the mouse. It is possible to exit the level by pressing the ESC key.
 
 ![Jogo](photos/game.png)
 
-Depois de escolher um algoritmo para resolver o nível, o jogador pode interagir com o programa. Pode, assim, utilizar as setas representadas no ecrã para realizar o movimento anterior ou o seguinte, clicar em *Auto Run* para visualizar a resolução do nível automaticamente, ou clicar em *Exit Algorithm* para sair do menu do algoritmo e voltar a jogar manualmente.
+After choosing an algorithm to solve the level, the player can interact with the program. They can use the arrows displayed on the screen to perform the previous or next movement, click on Auto Run to view the resolution of the level automatically, or click on Exit Algorithm to exit the algorithm menu and return to playing manually.
 
 ![Algoritmo](photos/runAlgorithms.png)
 
-Ao selecionar algoritmos com profundidade limitada, é pedido que o jogador indique a profundidade máxima que deseja. Se for selecionado um algoritmo que utiliza heurísticas, é solicitada ao jogador a escolha da heurística a utilizar.
+When selecting algorithms with limited depth, the player is asked to indicate the maximum depth they want. If an algorithm that uses heuristics is selected, the player is asked to choose the heuristic to use.
 
 ![Profundidade](photos/depth.png)
 ![Heurística](photos/heuristic.png)
 
-Ao clicar na opção de dicas *Hint*, é fornecida a melhor jogada a realizar.
+When clicking on the Hint option, the best move to make is provided.
 
 ![Dicas](photos/hint.png)
 
-Quando o jogador termina o nível, é redirecionado para a página de conclusão do nível, onde é possível visualizar o número de movimentos realizados, representado pelo *Score*. Para voltar ao menu principal, o jogador deve pressionar a tecla *ESC* e, aí, pode escolher um novo nível.
+When the player finishes the level, they are redirected to the level completion page, where it is possible to view the number of moves made, represented by the Score. To return to the main menu, the player must press the ESC key, and from there, they can choose a new level.
 
 ![Conclusão](photos/finalMenu.png)
