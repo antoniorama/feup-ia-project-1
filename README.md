@@ -8,7 +8,7 @@ Grupo: **Group A1_42**
 * Matilde Isabel da Silva Simões - up202108782
 * Manuel Ramos Leite Carvalho Neto - up202108744
 
-## Como correr o programa
+## How correr o programa
 
 Para iniciar o jogo, é necessário instalar a biblioteca `pygame` e correr os comandos:
 ```bash
