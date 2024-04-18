@@ -1,5 +1,10 @@
 # Amado Game
 
+## About this Project
+
+- Created a straightforward single-player game featuring a basic graphical user interface, complemented by an AI capable of solving the game using diverse AI algorithms.
+- Evaluated the performance and solutions of each algorithm.
+  
 ## How to Run the Program
 
 To start the game, it is necessary to install the `pygame` library and run the commands:
